@@ -9,7 +9,7 @@ Ce dépot contient:
   - l'export des tables de base au format geojson (tables contenant des géométries) ou csv (tables attributaires uniquement)
 - un projet QGIS permettant la saisie des données de l'IHU (dossier `qgis_template`)
 
-La documentation du modèle de données est disponible dans le dossier `doc`
+La documentation du modèle de données (nomenclature) est disponible dans le dossier `doc`
 
 **NB: le projet QGIS a été développé pour QGIS 3.28 (LTR)**
 
@@ -17,7 +17,6 @@ La documentation du modèle de données est disponible dans le dossier `doc`
 
 ### Dépendances
 
-- ogr2ogr (gdal)
 - psql
 
 ### Création de la base de données
