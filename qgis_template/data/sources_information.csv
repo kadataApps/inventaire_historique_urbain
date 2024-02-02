@@ -1,2 +1,2 @@
-id,id_dossier,uri,nom_source,a_ete_consulte,commentaire
-f184c49e-67c2-4561-ab6d-734823caa3b4,,,,,
+uri_copie_ihu,reference_document_original,uri_original,organisme_source,a_ete_consulte,commentaire
+sources_information/exploitant1/dreal/exemple_extrait_arrete_prefectoral.txt,,,,t,
