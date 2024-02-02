@@ -1,0 +1,8 @@
+id,type_activite_occupation
+1,Inconnue
+2,Aucune
+3,Résidentielle
+4,Agricole
+5,Industrielle
+6,Etablissement sensible
+7,Autre (à définir dans le commentaire)

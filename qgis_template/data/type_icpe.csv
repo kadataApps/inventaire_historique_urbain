@@ -1,0 +1,10 @@
+id,type_icpe
+1,Aucune
+2,Inconnue
+3,Déclaration
+4,Déclaration avec contrôle périodique
+5,Enregistrement
+6,Autorisation
+7,SEVESO seuil bas
+8,SEVESO seuil haut
+9,Autre (à définir dans le commentaire)

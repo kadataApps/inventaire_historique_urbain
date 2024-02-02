@@ -1,0 +1,6 @@
+id,type_polluant
+1,Inconnue
+2,Pollution métallique
+3,Pollution organique par des hydrocarbures
+4,Pollution organique par des solvants
+5,Autre (à définir dans le commentaire)

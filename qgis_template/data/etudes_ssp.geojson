@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "etudes_ssp",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "id": "02c4783a-3945-460e-b9c6-298f4992219a", "id_etude_ssp": null, "a_ete_consulte": null, "types_mission_ssp": null, "date_etude": null, "occupation_constatee": null, "presence_batiments": null, "types_usages_compatibles": null, "bureau_etude": null, "maitre_ouvrage": null, "commentaire": null, "documents": null }, "geometry": { "type": "MultiPolygon", "coordinates": [ [ [ [ 2.637437875067124, 48.529337193189413 ], [ 2.63903284356886, 48.527676790082474 ], [ 2.64130669609954, 48.528470184670518 ], [ 2.64017794915985, 48.52971344216931 ], [ 2.639253685361408, 48.530531374734302 ], [ 2.638730208519812, 48.530048794520958 ], [ 2.638280345609066, 48.529803414751456 ], [ 2.637437875067124, 48.529337193189413 ] ] ] ] } }
+]
+}

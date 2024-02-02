@@ -1,0 +1,12 @@
+id,type_usage_compatible
+1,Logements
+2,Bureaux
+3,Commerces
+4,Administration
+5,Industriel
+6,Equipements publics
+7,Espaces publics
+8,Renaturation
+9,Panneaux photovoltaïques
+10,Energie hors photovoltaïque
+11,Autre (à définir dans le commentaire)

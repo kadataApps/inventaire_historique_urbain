@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "zones_depollution",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "id": "16139388-919a-4fab-b256-fbb2b0a5545a", "entreprise_travaux": null, "date_travaux": null, "maitre_ouvrage": null, "amo_moe": null, "seuils_de_coupure": null, "types_usages_remise_en_etat": null, "commentaire": null, "documents": null }, "geometry": { "type": "MultiPolygon", "coordinates": [ [ [ [ 2.639055420022344, 48.530148143033806 ], [ 2.639155722789851, 48.530257564234724 ], [ 2.639424716575438, 48.530020484966073 ], [ 2.639260584774063, 48.529961215148909 ], [ 2.639055420022344, 48.530148143033806 ] ] ] ] } }
+]
+}
