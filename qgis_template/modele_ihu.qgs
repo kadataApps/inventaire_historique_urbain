@@ -1,5 +1,5 @@
 <!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
-<qgis version="3.28.14-Firenze" projectname="" saveDateTime="2024-01-28T22:56:33" saveUser="thomasbrosset" saveUserFull="Thomas BROSSET">
+<qgis version="3.28.14-Firenze" projectname="" saveDateTime="2024-01-28T23:55:47" saveUser="thomasbrosset" saveUserFull="Thomas BROSSET">
   <homePath path=""/>
   <title></title>
   <transaction mode="Disabled"/>
@@ -185,19 +185,19 @@
   </layer-tree-group>
   <snapping-settings enabled="0" intersection-snapping="0" self-snapping="0" mode="2" unit="1" type="0" scaleDependencyMode="0" minScale="0" maxScale="0" tolerance="12">
     <individual-layer-settings>
-      <layer-setting enabled="0" id="exploitants_occupants_584bf9d0_229b_4548_a70f_0eb35c6ac8e1" type="0" minScale="0" maxScale="0" tolerance="12" units="1"/>
-      <layer-setting enabled="0" id="sources_potentielles_pollution_surfaciques_da5f7e9e_7bdb_44e1_813e_9b2626fbdf33" type="0" minScale="0" maxScale="0" tolerance="12" units="1"/>
+      <layer-setting enabled="0" id="wfs_du_prescription_lin_847ba0fb_c777_449b_b4a3_a642ab34a120" type="0" minScale="0" maxScale="0" tolerance="12" units="1"/>
+      <layer-setting enabled="0" id="etudes_ssp_bf61cbd2_cdb6_44e0_a6b9_8eee76b4e7ed" type="0" minScale="0" maxScale="0" tolerance="12" units="1"/>
       <layer-setting enabled="0" id="wfs_sup_assiette_sup_s_dc10cb4d_d726_4044_91eb_e2b2b9a9fc77" type="0" minScale="0" maxScale="0" tolerance="12" units="1"/>
       <layer-setting enabled="0" id="wfs_du_prescription_surf_0749e8c7_e4c2_4a6f_a2d9_83d03a202b27" type="0" minScale="0" maxScale="0" tolerance="12" units="1"/>
-      <layer-setting enabled="0" id="wfs_du_prescription_lin_847ba0fb_c777_449b_b4a3_a642ab34a120" type="0" minScale="0" maxScale="0" tolerance="12" units="1"/>
-      <layer-setting enabled="0" id="ouvrages_surveillance_5eca8f01_2251_4b67_9345_6643d53a2025" type="0" minScale="0" maxScale="0" tolerance="12" units="1"/>
-      <layer-setting enabled="0" id="wfs_du_zone_urba_8288ee00_a812_4497_b3cb_a4eeb08a65e8" type="0" minScale="0" maxScale="0" tolerance="12" units="1"/>
-      <layer-setting enabled="0" id="sources_potentielles_pollution_ponctuelles_62377acf_2632_414c_a3c6_6ff7bceae809" type="0" minScale="0" maxScale="0" tolerance="12" units="1"/>
-      <layer-setting enabled="0" id="etudes_ssp_bf61cbd2_cdb6_44e0_a6b9_8eee76b4e7ed" type="0" minScale="0" maxScale="0" tolerance="12" units="1"/>
-      <layer-setting enabled="0" id="wfs_du_prescription_pct_508778ff_53d1_4b04_9bbf_e8e1f4cc58d0" type="0" minScale="0" maxScale="0" tolerance="12" units="1"/>
       <layer-setting enabled="0" id="surfaces_occupation_sol_zan_0e6306bb_ca4c_4ca5_aafa_326d45d31813" type="0" minScale="0" maxScale="0" tolerance="12" units="1"/>
       <layer-setting enabled="0" id="wfs_sup_assiette_sup_l_6719157e_f332_4be2_a7af_135f7bf1e898" type="0" minScale="0" maxScale="0" tolerance="12" units="1"/>
       <layer-setting enabled="0" id="zones_depollution_135d3d92_bd0f_49c6_8f4f_5e2d89fa640b" type="0" minScale="0" maxScale="0" tolerance="12" units="1"/>
+      <layer-setting enabled="0" id="sources_potentielles_pollution_surfaciques_da5f7e9e_7bdb_44e1_813e_9b2626fbdf33" type="0" minScale="0" maxScale="0" tolerance="12" units="1"/>
+      <layer-setting enabled="0" id="wfs_du_prescription_pct_508778ff_53d1_4b04_9bbf_e8e1f4cc58d0" type="0" minScale="0" maxScale="0" tolerance="12" units="1"/>
+      <layer-setting enabled="0" id="exploitants_occupants_584bf9d0_229b_4548_a70f_0eb35c6ac8e1" type="0" minScale="0" maxScale="0" tolerance="12" units="1"/>
+      <layer-setting enabled="0" id="sources_potentielles_pollution_ponctuelles_62377acf_2632_414c_a3c6_6ff7bceae809" type="0" minScale="0" maxScale="0" tolerance="12" units="1"/>
+      <layer-setting enabled="0" id="ouvrages_surveillance_5eca8f01_2251_4b67_9345_6643d53a2025" type="0" minScale="0" maxScale="0" tolerance="12" units="1"/>
+      <layer-setting enabled="0" id="wfs_du_zone_urba_8288ee00_a812_4497_b3cb_a4eeb08a65e8" type="0" minScale="0" maxScale="0" tolerance="12" units="1"/>
     </individual-layer-settings>
   </snapping-settings>
   <relations/>
@@ -1395,8 +1395,8 @@
             <Option value="&quot;id&quot;" type="QString"/>
           </Option>
           <Option value="0" type="int" name="embeddedWidgets/count"/>
-          <Option name="variableNames"/>
-          <Option name="variableValues"/>
+          <Option type="invalid" name="variableNames"/>
+          <Option type="invalid" name="variableValues"/>
         </Option>
       </customproperties>
       <blendMode>0</blendMode>
@@ -3604,8 +3604,8 @@ def my_form_open(dialog, layer, feature):
             <Option value="&quot;id_exploitant&quot;" type="QString"/>
           </Option>
           <Option value="0" type="int" name="embeddedWidgets/count"/>
-          <Option name="variableNames"/>
-          <Option name="variableValues"/>
+          <Option type="invalid" name="variableNames"/>
+          <Option type="invalid" name="variableValues"/>
         </Option>
       </customproperties>
       <blendMode>0</blendMode>
@@ -4459,8 +4459,8 @@ def my_form_open(dialog, layer, feature):
           <Option value="{}" type="QString" name="QFieldSync/photo_naming"/>
           <Option value="{}" type="QString" name="QFieldSync/relationship_maximum_visible"/>
           <Option value="0" type="int" name="embeddedWidgets/count"/>
-          <Option name="variableNames"/>
-          <Option name="variableValues"/>
+          <Option type="invalid" name="variableNames"/>
+          <Option type="invalid" name="variableValues"/>
         </Option>
       </customproperties>
       <blendMode>0</blendMode>
@@ -4942,8 +4942,8 @@ def my_form_open(dialog, layer, feature):
             <Option value="&quot;niv_2_nom_dossier&quot;" type="QString"/>
           </Option>
           <Option value="0" type="int" name="embeddedWidgets/count"/>
-          <Option name="variableNames"/>
-          <Option name="variableValues"/>
+          <Option type="invalid" name="variableNames"/>
+          <Option type="invalid" name="variableValues"/>
         </Option>
       </customproperties>
       <geometryOptions geometryPrecision="0" removeDuplicateNodes="0">
@@ -4983,7 +4983,7 @@ def my_form_open(dialog, layer, feature):
                 <Option value="" type="QString" name="FileWidgetFilter"/>
                 <Option type="Map" name="PropertyCollection">
                   <Option value="" type="QString" name="name"/>
-                  <Option name="properties"/>
+                  <Option type="invalid" name="properties"/>
                   <Option value="collection" type="QString" name="type"/>
                 </Option>
                 <Option value="1" type="int" name="RelativeStorage"/>
@@ -5424,8 +5424,8 @@ def my_form_open(dialog, layer, feature):
           <Option value="{}" type="QString" name="QFieldSync/photo_naming"/>
           <Option value="{}" type="QString" name="QFieldSync/relationship_maximum_visible"/>
           <Option value="0" type="int" name="embeddedWidgets/count"/>
-          <Option name="variableNames"/>
-          <Option name="variableValues"/>
+          <Option type="invalid" name="variableNames"/>
+          <Option type="invalid" name="variableValues"/>
         </Option>
       </customproperties>
       <blendMode>0</blendMode>
@@ -6002,8 +6002,8 @@ def my_form_open(dialog, layer, feature):
           <Option value="{}" type="QString" name="QFieldSync/photo_naming"/>
           <Option value="{}" type="QString" name="QFieldSync/relationship_maximum_visible"/>
           <Option value="0" type="int" name="embeddedWidgets/count"/>
-          <Option name="variableNames"/>
-          <Option name="variableValues"/>
+          <Option type="invalid" name="variableNames"/>
+          <Option type="invalid" name="variableValues"/>
         </Option>
       </customproperties>
       <blendMode>0</blendMode>
@@ -6677,8 +6677,8 @@ def my_form_open(dialog, layer, feature):
             <Option value="&quot;id&quot;" type="QString"/>
           </Option>
           <Option value="0" type="int" name="embeddedWidgets/count"/>
-          <Option name="variableNames"/>
-          <Option name="variableValues"/>
+          <Option type="invalid" name="variableNames"/>
+          <Option type="invalid" name="variableValues"/>
         </Option>
       </customproperties>
       <blendMode>0</blendMode>
@@ -9444,8 +9444,8 @@ def my_form_open(dialog, layer, feature):
             <Option value="&quot;id&quot;" type="QString"/>
           </Option>
           <Option value="0" type="int" name="embeddedWidgets/count"/>
-          <Option name="variableNames"/>
-          <Option name="variableValues"/>
+          <Option type="invalid" name="variableNames"/>
+          <Option type="invalid" name="variableValues"/>
         </Option>
       </customproperties>
       <geometryOptions geometryPrecision="0" removeDuplicateNodes="0">
@@ -9607,16 +9607,16 @@ def my_form_open(dialog, layer, feature):
     </maplayer>
     <maplayer hasScaleBasedVisibilityFlag="1" simplifyDrawingHints="1" refreshOnNotifyEnabled="0" labelsEnabled="0" minScale="10000" geometry="Line" symbologyReferenceScale="-1" simplifyLocal="1" simplifyMaxScale="1" maxScale="0" styleCategories="AllStyleCategories" autoRefreshTime="0" wkbType="LineString" legendPlaceholderImage="" simplifyAlgorithm="0" autoRefreshEnabled="0" simplifyDrawingTol="1" type="vector" refreshOnNotifyMessage="" readOnly="0">
       <extent>
-        <xmin>2.64603463650299942</xmin>
-        <ymin>48.51505799557524767</ymin>
-        <xmax>2.65971902944783167</xmax>
-        <ymax>48.52314436003765508</ymax>
+        <xmin>2.63040325293959887</xmin>
+        <ymin>48.53368470961135728</ymin>
+        <xmax>2.6512051064743396</xmax>
+        <ymax>48.54383651705544622</ymax>
       </extent>
       <wgs84extent>
-        <xmin>2.64603463650299942</xmin>
-        <ymin>48.51505799557524767</ymin>
-        <xmax>2.65971902944783167</xmax>
-        <ymax>48.52314436003765508</ymax>
+        <xmin>2.63040325293959887</xmin>
+        <ymin>48.53368470961135728</ymin>
+        <xmax>2.6512051064743396</xmax>
+        <ymax>48.54383651705544622</ymax>
       </wgs84extent>
       <id>wfs_du_prescription_lin_847ba0fb_c777_449b_b4a3_a642ab34a120</id>
       <datasource> pageSize='10000' pagingEnabled='true' preferCoordinatesForWfsT11='false' restrictToRequestBBOX='1' srsname='EPSG:4326' typename='wfs_du:prescription_lin' url='https://wxs-gpu.mongeoportail.ign.fr/externe/39wtxmgtn23okfbbs1al2lz3/wfs' version='auto'</datasource>
@@ -10236,16 +10236,16 @@ def my_form_open(dialog, layer, feature):
     </maplayer>
     <maplayer hasScaleBasedVisibilityFlag="1" simplifyDrawingHints="0" refreshOnNotifyEnabled="0" labelsEnabled="0" minScale="10000" geometry="Point" symbologyReferenceScale="-1" simplifyLocal="1" simplifyMaxScale="1" maxScale="0" styleCategories="AllStyleCategories" autoRefreshTime="0" wkbType="Point" legendPlaceholderImage="" simplifyAlgorithm="0" autoRefreshEnabled="0" simplifyDrawingTol="1" type="vector" refreshOnNotifyMessage="" readOnly="0">
       <extent>
-        <xmin>2.65653984886895689</xmin>
-        <ymin>48.51824888868022612</ymin>
-        <xmax>2.65653984886895689</xmax>
-        <ymax>48.51824888868022612</ymax>
+        <xmin>2.63280564502612435</xmin>
+        <ymin>48.5339417700939606</ymin>
+        <xmax>2.64666483485449477</xmax>
+        <ymax>48.54306632541565136</ymax>
       </extent>
       <wgs84extent>
-        <xmin>2.65653984886895689</xmin>
-        <ymin>48.51824888868022612</ymin>
-        <xmax>2.65653984886895689</xmax>
-        <ymax>48.51824888868022612</ymax>
+        <xmin>2.63280564502612435</xmin>
+        <ymin>48.5339417700939606</ymin>
+        <xmax>2.64666483485449477</xmax>
+        <ymax>48.54306632541565136</ymax>
       </wgs84extent>
       <id>wfs_du_prescription_pct_508778ff_53d1_4b04_9bbf_e8e1f4cc58d0</id>
       <datasource> pageSize='10000' pagingEnabled='true' preferCoordinatesForWfsT11='false' restrictToRequestBBOX='1' srsname='EPSG:4326' typename='wfs_du:prescription_pct' url='https://wxs-gpu.mongeoportail.ign.fr/externe/39wtxmgtn23okfbbs1al2lz3/wfs' version='auto'</datasource>
@@ -10875,16 +10875,16 @@ def my_form_open(dialog, layer, feature):
     </maplayer>
     <maplayer hasScaleBasedVisibilityFlag="1" simplifyDrawingHints="1" refreshOnNotifyEnabled="0" labelsEnabled="0" minScale="10000" geometry="Polygon" symbologyReferenceScale="-1" simplifyLocal="1" simplifyMaxScale="1" maxScale="0" styleCategories="AllStyleCategories" autoRefreshTime="0" wkbType="MultiPolygon" legendPlaceholderImage="" simplifyAlgorithm="0" autoRefreshEnabled="0" simplifyDrawingTol="1" type="vector" refreshOnNotifyMessage="" readOnly="0">
       <extent>
-        <xmin>2.64098465715295205</xmin>
-        <ymin>48.48703682019448991</ymin>
-        <xmax>2.67457964554705985</xmax>
-        <ymax>48.52561141048006021</ymax>
+        <xmin>-180</xmin>
+        <ymin>-80</ymin>
+        <xmax>180</xmax>
+        <ymax>80</ymax>
       </extent>
       <wgs84extent>
-        <xmin>2.64098465715295205</xmin>
-        <ymin>48.48703682019448991</ymin>
-        <xmax>2.67457964554705985</xmax>
-        <ymax>48.52561141048006021</ymax>
+        <xmin>-180</xmin>
+        <ymin>-80</ymin>
+        <xmax>180</xmax>
+        <ymax>80</ymax>
       </wgs84extent>
       <id>wfs_du_prescription_surf_0749e8c7_e4c2_4a6f_a2d9_83d03a202b27</id>
       <datasource> pageSize='10000' pagingEnabled='true' preferCoordinatesForWfsT11='false' restrictToRequestBBOX='1' srsname='EPSG:4326' typename='wfs_du:prescription_surf' url='https://wxs-gpu.mongeoportail.ign.fr/externe/39wtxmgtn23okfbbs1al2lz3/wfs' version='auto'</datasource>
@@ -15007,8 +15007,8 @@ def my_form_open(dialog, layer, feature):
             <Option value="&quot;id_zone_depollution&quot;" type="QString"/>
           </Option>
           <Option value="0" type="int" name="embeddedWidgets/count"/>
-          <Option name="variableNames"/>
-          <Option name="variableValues"/>
+          <Option type="invalid" name="variableNames"/>
+          <Option type="invalid" name="variableValues"/>
         </Option>
       </customproperties>
       <blendMode>0</blendMode>
@@ -15347,8 +15347,60 @@ def my_form_open(dialog, layer, feature):
   </layerorder>
   <properties>
     <CopyrightLabel>
-      <Enabled type="int">0</Enabled>
-      <Label type="QString"></Label>
+      <Enabled type="bool">true</Enabled>
+      <Font type="QString">&lt;text-style textColor="0,0,0,255" fontFamily=".AppleSystemUIFont" forcedBold="0" namedStyle="" fontLetterSpacing="0" forcedItalic="0" blendMode="0" fontUnderline="0" fontSizeUnit="Point" fontItalic="0" allowHtml="0" multilineHeightUnit="Percentage" fontWordSpacing="0" fontSize="10" fontKerning="1" fontSizeMapUnitScale="3x:0,0,0,0,0,0" fontStrikeout="0" fontWeight="50" previewBkgrdColor="255,255,255,255" multilineHeight="1" capitalization="0" textOpacity="1" textOrientation="horizontal">
+ &lt;families/>
+ &lt;text-buffer bufferJoinStyle="128" bufferDraw="0" bufferSizeMapUnitScale="3x:0,0,0,0,0,0" bufferBlendMode="0" bufferSizeUnits="MM" bufferSize="1" bufferColor="255,255,255,255" bufferNoFill="1" bufferOpacity="1"/>
+ &lt;text-mask maskSizeUnits="MM" maskedSymbolLayers="" maskType="0" maskSize="1.5" maskOpacity="1" maskEnabled="0" maskJoinStyle="128" maskSizeMapUnitScale="3x:0,0,0,0,0,0"/>
+ &lt;background shapeFillColor="255,255,255,255" shapeOffsetX="0" shapeOffsetUnit="MM" shapeRadiiMapUnitScale="3x:0,0,0,0,0,0" shapeOffsetMapUnitScale="3x:0,0,0,0,0,0" shapeBorderWidthMapUnitScale="3x:0,0,0,0,0,0" shapeSVGFile="" shapeRadiiY="0" shapeRotation="0" shapeSizeUnit="MM" shapeBorderWidthUnit="MM" shapeDraw="0" shapeBorderColor="128,128,128,255" shapeSizeY="0" shapeRadiiUnit="MM" shapeSizeX="0" shapeRadiiX="0" shapeSizeType="0" shapeBorderWidth="0" shapeOpacity="1" shapeBlendMode="0" shapeRotationType="0" shapeOffsetY="0" shapeJoinStyle="64" shapeSizeMapUnitScale="3x:0,0,0,0,0,0" shapeType="0">
+  &lt;symbol is_animated="0" force_rhr="0" alpha="1" clip_to_extent="1" type="fill" frame_rate="10" name="fillSymbol">
+   &lt;data_defined_properties>
+    &lt;Option type="Map">
+     &lt;Option value="" type="QString" name="name"/>
+     &lt;Option name="properties"/>
+     &lt;Option value="collection" type="QString" name="type"/>
+    &lt;/Option>
+   &lt;/data_defined_properties>
+   &lt;layer enabled="1" locked="0" class="SimpleFill" pass="0">
+    &lt;Option type="Map">
+     &lt;Option value="3x:0,0,0,0,0,0" type="QString" name="border_width_map_unit_scale"/>
+     &lt;Option value="255,255,255,255" type="QString" name="color"/>
+     &lt;Option value="bevel" type="QString" name="joinstyle"/>
+     &lt;Option value="0,0" type="QString" name="offset"/>
+     &lt;Option value="3x:0,0,0,0,0,0" type="QString" name="offset_map_unit_scale"/>
+     &lt;Option value="MM" type="QString" name="offset_unit"/>
+     &lt;Option value="128,128,128,255" type="QString" name="outline_color"/>
+     &lt;Option value="no" type="QString" name="outline_style"/>
+     &lt;Option value="0" type="QString" name="outline_width"/>
+     &lt;Option value="MM" type="QString" name="outline_width_unit"/>
+     &lt;Option value="solid" type="QString" name="style"/>
+    &lt;/Option>
+    &lt;data_defined_properties>
+     &lt;Option type="Map">
+      &lt;Option value="" type="QString" name="name"/>
+      &lt;Option name="properties"/>
+      &lt;Option value="collection" type="QString" name="type"/>
+     &lt;/Option>
+    &lt;/data_defined_properties>
+   &lt;/layer>
+  &lt;/symbol>
+ &lt;/background>
+ &lt;shadow shadowOffsetAngle="135" shadowDraw="0" shadowOffsetGlobal="1" shadowRadius="1.5" shadowOffsetMapUnitScale="3x:0,0,0,0,0,0" shadowBlendMode="6" shadowUnder="0" shadowRadiusAlphaOnly="0" shadowScale="100" shadowOpacity="0.69999999999999996" shadowOffsetDist="1" shadowOffsetUnit="MM" shadowRadiusMapUnitScale="3x:0,0,0,0,0,0" shadowColor="0,0,0,255" shadowRadiusUnit="MM"/>
+ &lt;dd_properties>
+  &lt;Option type="Map">
+   &lt;Option value="" type="QString" name="name"/>
+   &lt;Option name="properties"/>
+   &lt;Option value="collection" type="QString" name="type"/>
+  &lt;/Option>
+ &lt;/dd_properties>
+&lt;/text-style>
+</Font>
+      <Label type="QString">© ADEME
+Fond de plan : © IGN / Données réglementaires : © Géoportail de l'urbanisme</Label>
+      <MarginH type="int">0</MarginH>
+      <MarginUnit type="QString">MM</MarginUnit>
+      <MarginV type="int">0</MarginV>
+      <Placement type="int">3</Placement>
     </CopyrightLabel>
     <Digitizing>
       <AvoidIntersectionsMode type="int">0</AvoidIntersectionsMode>
@@ -15404,6 +15456,101 @@ def my_form_open(dialog, layer, feature):
     <SpatialRefSys>
       <ProjectionsEnabled type="int">1</ProjectionsEnabled>
     </SpatialRefSys>
+    <TitleLabel>
+      <BackgroundColor type="QString">0,0,0,99</BackgroundColor>
+      <Enabled type="bool">true</Enabled>
+      <Font type="QString">&lt;text-style textColor="255,255,255,255" fontFamily="Helvetica" forcedBold="0" namedStyle="Bold" fontLetterSpacing="0" forcedItalic="0" blendMode="0" fontUnderline="0" fontSizeUnit="Point" fontItalic="0" allowHtml="0" multilineHeightUnit="Percentage" fontWordSpacing="0" fontSize="12" fontKerning="1" fontSizeMapUnitScale="3x:0,0,0,0,0,0" fontStrikeout="0" fontWeight="75" previewBkgrdColor="255,255,255,255" multilineHeight="1" capitalization="0" textOpacity="1" textOrientation="horizontal">
+ &lt;families/>
+ &lt;text-buffer bufferJoinStyle="128" bufferDraw="0" bufferSizeMapUnitScale="3x:0,0,0,0,0,0" bufferBlendMode="0" bufferSizeUnits="MM" bufferSize="1" bufferColor="250,250,250,255" bufferNoFill="1" bufferOpacity="1"/>
+ &lt;text-mask maskSizeUnits="MM" maskedSymbolLayers="" maskType="0" maskSize="0" maskOpacity="1" maskEnabled="0" maskJoinStyle="128" maskSizeMapUnitScale="3x:0,0,0,0,0,0"/>
+ &lt;background shapeFillColor="255,255,255,255" shapeOffsetX="0" shapeOffsetUnit="Point" shapeRadiiMapUnitScale="3x:0,0,0,0,0,0" shapeOffsetMapUnitScale="3x:0,0,0,0,0,0" shapeBorderWidthMapUnitScale="3x:0,0,0,0,0,0" shapeSVGFile="" shapeRadiiY="0" shapeRotation="0" shapeSizeUnit="Point" shapeBorderWidthUnit="Point" shapeDraw="0" shapeBorderColor="128,128,128,255" shapeSizeY="0" shapeRadiiUnit="Point" shapeSizeX="0" shapeRadiiX="0" shapeSizeType="0" shapeBorderWidth="0" shapeOpacity="1" shapeBlendMode="0" shapeRotationType="0" shapeOffsetY="0" shapeJoinStyle="64" shapeSizeMapUnitScale="3x:0,0,0,0,0,0" shapeType="0">
+  &lt;symbol is_animated="0" force_rhr="0" alpha="1" clip_to_extent="1" type="marker" frame_rate="10" name="markerSymbol">
+   &lt;data_defined_properties>
+    &lt;Option type="Map">
+     &lt;Option value="" type="QString" name="name"/>
+     &lt;Option name="properties"/>
+     &lt;Option value="collection" type="QString" name="type"/>
+    &lt;/Option>
+   &lt;/data_defined_properties>
+   &lt;layer enabled="1" locked="0" class="SimpleMarker" pass="0">
+    &lt;Option type="Map">
+     &lt;Option value="0" type="QString" name="angle"/>
+     &lt;Option value="square" type="QString" name="cap_style"/>
+     &lt;Option value="141,90,153,255" type="QString" name="color"/>
+     &lt;Option value="1" type="QString" name="horizontal_anchor_point"/>
+     &lt;Option value="bevel" type="QString" name="joinstyle"/>
+     &lt;Option value="circle" type="QString" name="name"/>
+     &lt;Option value="0,0" type="QString" name="offset"/>
+     &lt;Option value="3x:0,0,0,0,0,0" type="QString" name="offset_map_unit_scale"/>
+     &lt;Option value="MM" type="QString" name="offset_unit"/>
+     &lt;Option value="35,35,35,255" type="QString" name="outline_color"/>
+     &lt;Option value="solid" type="QString" name="outline_style"/>
+     &lt;Option value="0" type="QString" name="outline_width"/>
+     &lt;Option value="3x:0,0,0,0,0,0" type="QString" name="outline_width_map_unit_scale"/>
+     &lt;Option value="MM" type="QString" name="outline_width_unit"/>
+     &lt;Option value="diameter" type="QString" name="scale_method"/>
+     &lt;Option value="2" type="QString" name="size"/>
+     &lt;Option value="3x:0,0,0,0,0,0" type="QString" name="size_map_unit_scale"/>
+     &lt;Option value="MM" type="QString" name="size_unit"/>
+     &lt;Option value="1" type="QString" name="vertical_anchor_point"/>
+    &lt;/Option>
+    &lt;data_defined_properties>
+     &lt;Option type="Map">
+      &lt;Option value="" type="QString" name="name"/>
+      &lt;Option name="properties"/>
+      &lt;Option value="collection" type="QString" name="type"/>
+     &lt;/Option>
+    &lt;/data_defined_properties>
+   &lt;/layer>
+  &lt;/symbol>
+  &lt;symbol is_animated="0" force_rhr="0" alpha="1" clip_to_extent="1" type="fill" frame_rate="10" name="fillSymbol">
+   &lt;data_defined_properties>
+    &lt;Option type="Map">
+     &lt;Option value="" type="QString" name="name"/>
+     &lt;Option name="properties"/>
+     &lt;Option value="collection" type="QString" name="type"/>
+    &lt;/Option>
+   &lt;/data_defined_properties>
+   &lt;layer enabled="1" locked="0" class="SimpleFill" pass="0">
+    &lt;Option type="Map">
+     &lt;Option value="3x:0,0,0,0,0,0" type="QString" name="border_width_map_unit_scale"/>
+     &lt;Option value="255,255,255,255" type="QString" name="color"/>
+     &lt;Option value="bevel" type="QString" name="joinstyle"/>
+     &lt;Option value="0,0" type="QString" name="offset"/>
+     &lt;Option value="3x:0,0,0,0,0,0" type="QString" name="offset_map_unit_scale"/>
+     &lt;Option value="MM" type="QString" name="offset_unit"/>
+     &lt;Option value="128,128,128,255" type="QString" name="outline_color"/>
+     &lt;Option value="no" type="QString" name="outline_style"/>
+     &lt;Option value="0" type="QString" name="outline_width"/>
+     &lt;Option value="Point" type="QString" name="outline_width_unit"/>
+     &lt;Option value="solid" type="QString" name="style"/>
+    &lt;/Option>
+    &lt;data_defined_properties>
+     &lt;Option type="Map">
+      &lt;Option value="" type="QString" name="name"/>
+      &lt;Option name="properties"/>
+      &lt;Option value="collection" type="QString" name="type"/>
+     &lt;/Option>
+    &lt;/data_defined_properties>
+   &lt;/layer>
+  &lt;/symbol>
+ &lt;/background>
+ &lt;shadow shadowOffsetAngle="135" shadowDraw="0" shadowOffsetGlobal="1" shadowRadius="1.5" shadowOffsetMapUnitScale="3x:0,0,0,0,0,0" shadowBlendMode="6" shadowUnder="0" shadowRadiusAlphaOnly="0" shadowScale="100" shadowOpacity="0.69999999999999996" shadowOffsetDist="1" shadowOffsetUnit="MM" shadowRadiusMapUnitScale="3x:0,0,0,0,0,0" shadowColor="0,0,0,255" shadowRadiusUnit="MM"/>
+ &lt;dd_properties>
+  &lt;Option type="Map">
+   &lt;Option value="" type="QString" name="name"/>
+   &lt;Option name="properties"/>
+   &lt;Option value="collection" type="QString" name="type"/>
+  &lt;/Option>
+ &lt;/dd_properties>
+&lt;/text-style>
+</Font>
+      <Label type="QString">Inventaire Historique Urbain</Label>
+      <MarginH type="int">0</MarginH>
+      <MarginUnit type="QString">MM</MarginUnit>
+      <MarginV type="int">0</MarginV>
+      <Placement type="int">4</Placement>
+    </TitleLabel>
     <WCSLayers type="QStringList"/>
     <WCSUrl type="QString"></WCSUrl>
     <WFSLayers type="QStringList"/>
