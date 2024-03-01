@@ -28,3 +28,15 @@ Mettre à jour les variables env var dans `create_ihu_database.sh`
 ## Export des tables en geojson ou csv
 
 `make db2files`
+
+## Validation des donnéés
+
+Les données au format csv seront validées selon leur conformité avec des shemas au format Table Schema. La validation est réalisée en python avec Frictionless et jsonschema.
+
+### Installation de poetry et des dépendances frictionless et jsonschema
+
+```make setup-validation```
+
+### Validation des données
+
+```make validate-ihu```

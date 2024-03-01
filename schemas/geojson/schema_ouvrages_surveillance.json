@@ -1,0 +1,78 @@
+{
+  "allOf": [
+    {
+        "$ref": "https://geojson.org/schema/FeatureCollection.json",
+        "name": "schema-ihu-ouvrages-surveillance",
+        "title": "Ouvrages de surveillance",
+        "description": "Spécification des Ouvrages de surveillance renseignées dans le cadre d'une étude d'inventaire historique urbain (IHU).",
+        "countryCode": "FR",
+        "homepage": "https://github.com/kadataApps/modele_ihu",
+        "resources": [
+            {
+                "title": "Documentation de la spécification et modèle QGIS d'utilisation",
+                "path": "https://github.com/kadataApps/modele_ihu"
+            }
+        ],
+        "created": "2024-03-01",
+        "lastModified": "2024-03-01",
+        "version": "0.1.0",
+        "contributors": [
+            {
+                "title": "Thomas Brosset",
+                "email": "thomas.brosset@multi.coop",
+                "organisation": "Multi",
+                "role": "author"
+            }
+        ]
+    }
+],
+  "type": "object",
+  "properties": {
+    "features": {
+        "type": "array",
+        "items": {
+            "title": "GeoJSON Feature",
+            "type": "object",
+            "required": [
+                "properties"
+            ],
+            "properties": {
+                "properties": {
+                    "type": "object",
+                    "properties": {
+                        "id": {
+                          "type": "string",
+                          "format": "uuid",
+                          "description": "Identifiant unique de la source potentielle de pollution au format UUID"
+                        },
+                        "type_ouvrage": {
+                          "type": "string",
+                          "description": "Type d'ouvrage de surveillance de la source potentielle de pollution",
+                          "enum": ["Piézomètre", "Piézair"]
+                        },
+                        "date_inspection": {
+                          "type": ["string", "null"],
+                          "format": "date",
+                          "description": "Date de l'inspection de la source potentielle de pollution"
+                        },
+                        "profondeur": {
+                          "type": ["number", "null"],
+                          "description": "Profondeur de l'ouvrage de surveillance de la source potentielle de pollution"
+                        },
+                        "commentaire": {
+                          "type": ["string", "null"],
+                          "description": "Commentaire sur la source potentielle de pollution"
+                        },
+                        "documents": {
+                          "type": ["array", "null"],
+                          "description": "Liste des documents associés à la source potentielle de pollution"
+                        }
+                      },
+            "required": ["id", "type_ouvrage"]
+          }
+          
+        }
+      }
+    }
+  }
+}

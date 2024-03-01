@@ -1,0 +1,76 @@
+{
+  "allOf": [
+    {
+        "$ref": "https://geojson.org/schema/FeatureCollection.json",
+        "name": "schema-sources-potentielles-pollution",
+        "title": "Sources potentielles de pollution",
+        "description": "Spécification des sources potentielles de pollution renseignées dans le cadre d'une étude d'inventaire historique urbain (IHU).",
+        "countryCode": "FR",
+        "homepage": "https://github.com/kadataApps/modele_ihu",
+        "resources": [
+            {
+                "title": "Documentation de la spécification et modèle QGIS d'utilisation",
+                "path": "https://github.com/kadataApps/modele_ihu"
+            }
+        ],
+        "created": "2024-03-01",
+        "lastModified": "2024-03-01",
+        "version": "0.1.0",
+        "contributors": [
+            {
+                "title": "Thomas Brosset",
+                "email": "thomas.brosset@multi.coop",
+                "organisation": "Multi",
+                "role": "author"
+            }
+        ]
+    }
+],
+  "type": "object",
+  "properties": {
+    "features": {
+        "type": "array",
+        "items": {
+            "title": "GeoJSON Feature",
+            "type": "object",
+            "required": [
+                "properties"
+            ],
+            "properties": {
+                "properties": {
+                    "type": "object",
+                    "properties": {
+                        "id": {
+                          "type": "string",
+                          "format": "uuid",
+                          "description": "Identifiant unique de la zone au format UUID"
+                        },
+                        "surface": {
+                          "type": "number",
+                          "description": "Surface de la zone en m²",
+                          "minimum": 0
+                        },
+                        "occupation_principale": {
+                          "type": "string",
+                          "description": "Occupation principale de la zone. Valeurs possibles : Surface construite, Surface semi-perméable.",
+                          "enum": ["Surface construite", "Surface semi-perméable"]
+                        },
+                        "date_maj": {
+                          "type": "string",
+                          "description": "Date de mise à jour de la zone au format ISO 8601",
+                          "format": "date"
+                        },
+                       
+                        "sources_surfaces": {
+                          "type": ["string", "null"],
+                          "description": "Commentaire sur la source potentielle de pollution"
+                        }
+                      },
+            "required": ["id", "surface", "occupation_principale", "date_maj", "sources_surfaces"]
+          }
+          
+        }
+      }
+    }
+  }
+}

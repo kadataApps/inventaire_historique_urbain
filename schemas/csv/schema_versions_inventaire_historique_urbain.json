@@ -1,0 +1,35 @@
+{
+  "$schema": "https://frictionlessdata.io/schemas/table-schema.json",
+  "title": "Spécification du fichier renseignant les versions de l'inventaire historique urbain",
+  "version": "0.1",
+  "fields": [
+    {
+      "name": "id",
+      "type": "string",
+      "format": "uuid",
+      "description": "Unique identifier"
+    },
+    {
+      "name": "date_debut_saisie",
+      "type": "date",
+      "format": "any",
+      "description": "Start date of data entry, format DD/MM/YYYY"
+    },
+    {
+      "name": "date_fin_saisie",
+      "type": "date",
+      "format": "any",
+      "description": "End date of data entry, format DD/MM/YYYY"
+    },
+    {
+      "name": "bureau_etude",
+      "type": "string",
+      "description": "Study office"
+    },
+    {
+      "name": "commentaire",
+      "type": "string",
+      "description": "Comments"
+    }
+  ]
+}

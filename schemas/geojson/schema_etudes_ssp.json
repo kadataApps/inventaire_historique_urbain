@@ -1,0 +1,104 @@
+{
+  "allOf": [
+    {
+        "$ref": "https://geojson.org/schema/FeatureCollection.json",
+        "name": "schema-sources-potentielles-pollution",
+        "title": "Sources potentielles de pollution",
+        "description": "Spécification des sources potentielles de pollution renseignées dans le cadre d'une étude d'inventaire historique urbain (IHU).",
+        "countryCode": "FR",
+        "homepage": "https://github.com/kadataApps/modele_ihu",
+        "resources": [
+            {
+                "title": "Documentation de la spécification et modèle QGIS d'utilisation",
+                "path": "https://github.com/kadataApps/modele_ihu"
+            }
+        ],
+        "created": "2024-03-01",
+        "lastModified": "2024-03-01",
+        "version": "0.1.0",
+        "contributors": [
+            {
+                "title": "Thomas Brosset",
+                "email": "thomas.brosset@multi.coop",
+                "organisation": "Multi",
+                "role": "author"
+            }
+        ]
+    }
+],
+  "type": "object",
+  "properties": {
+    "features": {
+        "type": "array",
+        "items": {
+            "title": "GeoJSON Feature",
+            "type": "object",
+            "required": [
+                "properties"
+            ],
+            "properties": {
+                "properties": {
+                    "type": "object",
+                    "properties": {
+                        "id": {
+                          "type": "string",
+                          "format": "uuid",
+                          "description": "Identifiant unique de la source potentielle de pollution au format UUID"
+                        },
+                        "denomination_etude": {
+                          "type": ["string", "null"]
+                        },
+                        "reference_etude": {
+                          "type":["string", "null"]
+                        },
+                        "a_ete_consulte": {
+                          "type": "boolean",
+                          "description": "Indique si l'étude a été consultée"
+                        },
+                        "types_mission_ssp": {
+                          "type": ["string", "null"],
+                          "description": "Type de mission",
+                          "pattern": "^\\{(?:\"(Etude de vulnérabilité|Investigations sol)\",?)*\\}$"
+                        },
+                        "date_etude": {
+                          "type": ["string", "null"],
+                          "format": "date",
+                          "description": "Date de l'étude"
+                        },
+                        "occupation_constatee": {
+                          "type": ["string", "null"],
+                          "description": "Occupation constatée du site"
+                        },
+                        "presence_batiments":{
+                          "type": "boolean",
+                          "description": "Indique si des bâtiments sont présents sur le site"
+                        },
+                        "types_usages_compatibles" :{
+                          "type": ["string", "null"],
+                          "description": "Types d'usages compatibles avec la source potentielle de pollution. Valeurs possibles : résidentiel, commercial, industriel, agricole, autres. Si plusieurs types d'usages sont compatibles, ils sont séparés par une virgule. Exemple : résidentiel, commercial, industriel."
+                        },
+                        "bureau_etude": {
+                          "type":["string", "null"],
+                          "description": "Bureau d'étude ayant réalisé l'étude"
+                        },
+                        "maitre_ouvrage": {
+                          "type": ["string", "null"],
+                          "description": "Maître d'ouvrage de l'étude"
+                        },
+                        "commentaire": {
+                          "type": ["string", "null"],
+                          "description": "Commentaire sur la source potentielle de pollution"
+                        },
+                        "documents": {
+                          "type": ["array", "null"],
+                          "description": "Liste des documents associés à la source potentielle de pollution"
+                        }
+                      },
+            "required": ["id", "denomination_etude", "reference_etude", "a_ete_consulte", "types_mission_ssp", "date_etude", "occupation_constatee", "presence_batiments", "types_usages_compatibles", "bureau_etude", "maitre_ouvrage"]
+          }
+          
+        }
+      }
+    }
+  }
+}

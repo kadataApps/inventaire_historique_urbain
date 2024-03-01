@@ -1,0 +1,84 @@
+{
+  "allOf": [
+    {
+        "$ref": "https://geojson.org/schema/FeatureCollection.json",
+        "name": "schema-sources-potentielles-pollution",
+        "title": "Sources potentielles de pollution",
+        "description": "Spécification des sources potentielles de pollution renseignées dans le cadre d'une étude d'inventaire historique urbain (IHU).",
+        "countryCode": "FR",
+        "homepage": "https://github.com/kadataApps/modele_ihu",
+        "resources": [
+            {
+                "title": "Documentation de la spécification et modèle QGIS d'utilisation",
+                "path": "https://github.com/kadataApps/modele_ihu"
+            }
+        ],
+        "created": "2024-03-01",
+        "lastModified": "2024-03-01",
+        "version": "0.1.0",
+        "contributors": [
+            {
+                "title": "Thomas Brosset",
+                "email": "thomas.brosset@multi.coop",
+                "organisation": "Multi",
+                "role": "author"
+            }
+        ]
+    }
+],
+  "type": "object",
+  "properties": {
+    "features": {
+        "type": "array",
+        "items": {
+            "title": "GeoJSON Feature",
+            "type": "object",
+            "required": [
+                "properties"
+            ],
+            "properties": {
+                "properties": {
+                    "type": "object",
+                    "properties": {
+                        "id": {
+                          "type": "string",
+                          "format": "uuid",
+                          "description": "Identifiant unique de la source potentielle de pollution au format UUID"
+                        },
+                        "description_spp": {
+                          "type": "string"
+                        },
+                        "est_enterree": {
+                          "type": "boolean",
+                          "description": "Indique si la source potentielle de pollution est enterrée ou non. Valeur possible : true, false."
+                        },
+                        "types_polluants": {
+                          "type": "string",
+                          "description": "Type de polluants émis par la source potentielle de pollution. Valeurs possibles : hydrocarbures, métaux, pesticides, nitrates, phosphates, autres. Si plusieurs types de polluants sont émis, ils sont séparés par une virgule. Exemple : hydrocarbures, métaux, pesticides.",
+                          "pattern": "^\\{(?:\"(Pollution métallique|Pollution organique par des hydrocarbures|Pollution organique par des solvants)\",?)*\\}$"
+                        },
+                        "annee_installation": {
+                          "type": ["integer", "null"],
+                          "description": "Année d'installation de la source potentielle de pollution"
+                        },
+                        "annee_mise_en_securite": {
+                          "type": ["integer", "null"],
+                          "description": "Année de mise en sécurité de la source potentielle de pollution"
+                        },
+                        "commentaire": {
+                          "type": ["string", "null"],
+                          "description": "Commentaire sur la source potentielle de pollution"
+                        },
+                        "documents": {
+                          "type": ["array", "null"],
+                          "description": "Liste des documents associés à la source potentielle de pollution"
+                        }
+                      },
+            "required": ["id", "description_spp", "est_enterree", "types_polluants", "annee_installation"]
+          }
+          
+        }
+      }
+    }
+  }
+}

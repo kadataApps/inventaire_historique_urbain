@@ -1,0 +1,88 @@
+{
+  "allOf": [
+    {
+        "$ref": "https://geojson.org/schema/FeatureCollection.json",
+        "name": "schema-sources-potentielles-pollution",
+        "title": "Sources potentielles de pollution",
+        "description": "Spécification des sources potentielles de pollution renseignées dans le cadre d'une étude d'inventaire historique urbain (IHU).",
+        "countryCode": "FR",
+        "homepage": "https://github.com/kadataApps/modele_ihu",
+        "resources": [
+            {
+                "title": "Documentation de la spécification et modèle QGIS d'utilisation",
+                "path": "https://github.com/kadataApps/modele_ihu"
+            }
+        ],
+        "created": "2024-03-01",
+        "lastModified": "2024-03-01",
+        "version": "0.1.0",
+        "contributors": [
+            {
+                "title": "Thomas Brosset",
+                "email": "thomas.brosset@multi.coop",
+                "organisation": "Multi",
+                "role": "author"
+            }
+        ]
+    }
+],
+  "type": "object",
+  "properties": {
+    "features": {
+        "type": "array",
+        "items": {
+            "title": "GeoJSON Feature",
+            "type": "object",
+            "required": [
+                "properties"
+            ],
+            "properties": {
+                "properties": {
+                    "type": "object",
+                    "properties": {
+                        "id": {
+                          "type": "string",
+                          "format": "uuid",
+                          "description": "Identifiant unique de la zone de dépollution au format UUID"
+                        },
+                        "entreprise_travaux": {
+                          "type": "string"
+                        },
+                        "date_travaux": {
+                          "type": "string",
+                          "format": "date"
+                        },
+                        "maitre_ouvrage": {
+                          "type": "string",
+                          "description": "Nom du maître d'ouvrage"
+                          
+                        },
+                        "amo_moe": {
+                          "type": "string",
+                          "description": "Nom de l'assistant à maîtrise d'ouvrage ou de la maîtrise d'oeuvre"
+                        },
+                        "seuils_de_coupure": {
+                          "type": "string",
+                          "description": "Seuils de coupure"
+                        },
+                        "types_usages_remise_en_etat": {
+                          "type": "string",
+                          "description": "Types d'usages pour la remise en état"
+                        },
+                        "commentaire": {
+                          "type": ["string", "null"],
+                          "description": "Commentaire sur la source potentielle de pollution"
+                        },
+                        "documents": {
+                          "type": ["string", "null"],
+                          "description": "Liste des documents associés à la source potentielle de pollution"
+                        }
+                      },
+            "required": ["id","types_usages_remise_en_etat"]
+          }
+          
+        }
+      }
+    }
+  }
+}
