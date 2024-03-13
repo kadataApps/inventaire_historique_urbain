@@ -1,0 +1,28 @@
+{
+  "name": "datapackage-ihu",
+  "title": "Inventaires Historiques Urbains (IHU)",
+  "description": "data package contenant les 2 schémas de données tabulaires relatifs aux IHU: \"versions de l'inventaire historique urbain\" et \"sources d'information\"",
+  "id": "datapackage-ihu",
+  "resources": [
+      {
+          "name": "versions_inventaire_historique_urbain",
+          "path": "qgis/data/versions_inventaire_historique_urbain.csv",
+          "profile": "tabular-data-resource",
+          "format": "csv",
+          "mediatype": "text/csv",
+          "encoding": "utf-8",
+          "schema": "schemas/csv/schema-versions_inventaire_historique_urbain.json",
+          "documentation": "doc/Nomenclature.docx"
+      },
+      {
+          "name": "sources_information",
+          "path": "qgis/data/sources_information.csv",
+          "profile": "tabular-data-resource",
+          "format": "csv",
+          "mediatype": "text/csv",
+          "encoding": "utf-8",
+          "schema": "schemas/csv/schema-sources_information.json",
+          "documentation": "doc/Nomenclature.docx"
+      }
+  ]
+}

@@ -6,11 +6,11 @@
         "title": "Ouvrages de surveillance",
         "description": "Spécification des Ouvrages de surveillance renseignées dans le cadre d'une étude d'inventaire historique urbain (IHU).",
         "countryCode": "FR",
-        "homepage": "https://github.com/kadataApps/modele_ihu",
+        "homepage": "https://github.com/kadataApps/inventaire_historique_urbain",
         "resources": [
             {
                 "title": "Documentation de la spécification et modèle QGIS d'utilisation",
-                "path": "https://github.com/kadataApps/modele_ihu"
+                "path": "https://github.com/kadataApps/inventaire_historique_urbain"
             }
         ],
         "created": "2024-03-01",

@@ -1,0 +1,22 @@
+title: "Schémas des données relatifs à un Inventaire Historique Urbain"
+description : "Schémas des données relatifs à un Inventaire Historique Urbain. Les six schémas concernent les données au format geojson contenant des géométries. Les schémas des jeux de données tabulaires sont disponibles au format TableSchema."
+homepage: "https://github.com/kadataApps/inventaire_historique_urbain"
+schemas:
+  -
+    path: "schemas/geojson/schema_exploitants_occupants.json"
+    title: "Schéma des données des exploitants et occupants historiques et actuels"
+  -
+    path: "schemas/geojson/schema_etudes_ssp.json"
+    title: "Schéma des données des études SSP"
+  -
+    path: "schemas/geojson/schema_sources_potentielles_pollution.json"
+    title: "Schéma des données des sources potentielles de pollution"
+  -
+    path: "schemas/geojson/schema_ouvrages_surveillance.json"
+    title: "Schéma des données des ouvrages de surveillance"
+  -
+    path: "schemas/geojson/schema_occupation_sol_zan.json"
+    title: "Schéma des données liées à l'occupation du sol dans le cadre du ZAN (Zéro Artificialisation Nette)"
+  -
+    path: "schemas/geojson/schema_zones_depollution.json"
+    title: "Schéma des données des zones de dépollution"

@@ -1,0 +1,46 @@
+{
+  "$schema": "https://frictionlessdata.io/schemas/table-schema.json",
+  "title": "Spécification du fichier renseignant les versions de l'inventaire historique urbain",
+  "version": "0.1",
+  "fields": [
+    {
+      "name": "uri_copie_ihu",
+      "type": "string",
+      "description": "URI (chemin ou URL) de la copie du document"
+    },
+    {
+      "name": "reference_document_original",
+      "type": "string",
+      "description": "Référence du document original (tel que référencé dans la base de données de l'organisme source)"
+    },
+    {
+      "name": "uri_original",
+      "type": "string",
+      "description": "URI (chemin ou URL) du document original"
+    },
+    {
+      "name": "organisme_source",
+      "title": "Nom de l'organisme source",
+      "type": "string",
+      "description": "Nom de l'organisme source"
+    },
+    {
+      "name": "a_ete_consulte",
+      "title": "A été consulté",
+      "type": "boolean",
+      "trueValues": [
+        "t"
+      ],
+      "falseValues": [
+        "f"
+      ],
+      "description": "Indique si le document a été consulté"
+    },
+    {
+      "name": "commentaire",
+      "title": "Commentaire",
+      "type": "string",
+      "description": "Commentaire"
+    }
+  ]
+}
