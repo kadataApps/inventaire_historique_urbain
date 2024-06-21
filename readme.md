@@ -11,7 +11,7 @@ L’ADEME accompagne les collectivités locales dans ces démarches par un dispo
 Dans ce cadre, l’ADEME met à disposition des collectivités, depuis 2021, un cahier des charges type pour l’élaboration d’un IHU. Dans cette continuité, elle a souhaité pouvoir proposer aux collectivités des outils complémentaires pour l’élaboration d’un IHU. Une base de données type et un modèle de saisie de données QGIS ont ainsi été créés.
 
 La création de ces outils s’est appuyée sur l’interview de collectivités ou d’agences d’urbanisme en vue de recueillir leurs attentes et leurs retours d’expérience en matière d’IHU.
-
+![capture d'écran modèle QGIS](https://raw.githubusercontent.com/kadataApps/inventaire_historique_urbain/main/doc/capture_modele_ihu.png)
 ## Contenu du dépot
 
 Ce dépot contient:
