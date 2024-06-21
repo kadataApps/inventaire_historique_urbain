@@ -1,5 +1,17 @@
 # Inventaire Historique Urbain - Modèle de données et projet QGIS d'aide à la saisie
 
+Le renouvellement urbain et la reconstruction de la ville sur la ville sont des enjeux majeurs de l’urbanisme pour l’ensemble des acteurs de l’aménagement du territoire et en particulier les collectivités territoriales depuis déjà plusieurs années. Ils s’inscrivent désormais pleinement dans la démarche ZAN (Zéro Artificialisation Nette), mise en place en 2021 par la Loi Climat et Résilience, qui fixe comme objectif d’atteindre, en 2050, l’absence de toute artificialisation nette des sols.
+
+Ces enjeux nécessitent la prise en compte des éventuels risques environnementaux et sanitaires liés à l’historique et au contexte environnemental de ces zones urbaines.
+
+La démarche d’Inventaire Historique Urbain (IHU) a pour vocation de permettre aux collectivités locales de développer leur connaissance  des sites potentiellement pollués et des friches de leur territoire, d’anticiper les enjeux associés dans le cadre de leurs futurs projets d’aménagement, et, potentiellement, d’apporter aux porteurs de projet un premier niveau d’information relatif au risque de présence de pollution sur un site.
+
+L’ADEME accompagne les collectivités locales dans ces démarches par un dispositif d’Aides à la Décision, se traduisant d’une part par des aides financières, et d’autre part par la mise à disposition d’outils et de méthodes pour améliorer les pratiques.
+
+Dans ce cadre, l’ADEME met à disposition des collectivités, depuis 2021, un cahier des charges type pour l’élaboration d’un IHU. Dans cette continuité, elle a souhaité pouvoir proposer aux collectivités des outils complémentaires pour l’élaboration d’un IHU. Une base de données type et un modèle de saisie de données QGIS ont ainsi été créés.
+
+La création de ces outils s’est appuyée sur l’interview de collectivités ou d’agences d’urbanisme en vue de recueillir leurs attentes et leurs retours d’expérience en matière d’IHU.
+
 ## Contenu du dépot
 
 Ce dépot contient:
